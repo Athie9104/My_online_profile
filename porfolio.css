@@ -2442,12 +2442,13 @@ max-height:100%;}	}
 
 /* Contact */
 .contact{
+	color: white;
     flex-wrap: nowrap;
     border: solid white;
-    position: absolute;
     left: 0;
     top: 7%;
-    width: 500px;
-    padding:0;
-    background-color: wheat;
+    width: 50%;
+    margin: auto;
+	/* background-color: black; */
+	padding: 20px;
 }
