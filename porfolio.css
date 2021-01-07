@@ -224,6 +224,18 @@ input, select, textarea {
 
 /* Container */
 
+
+ ul li{
+    float: left;
+    list-style: none;
+    padding: 0px 2px;
+    position: relative;
+    margin: 0px;  
+}
+
+ul li img{
+	margin-left: 0%;
+}
 	.container {
 		margin: 0 auto;
 		max-width: calc(100% - 50px);
@@ -233,7 +245,9 @@ input, select, textarea {
 		.container.medium {
 			width: 900px;
 		}
-
+	/* .container img {
+		margin-left: -100;
+	} */
 		@media screen and (max-width: 1680px) {
 
 			.container {
@@ -1576,11 +1590,11 @@ input, select, textarea {
 
 	form ::-moz-focus-inner {
 		border: 0;
-	}
+	} 
 
 /* Tables */
 
-	table {
+	/* table {
 		width: 100%;
 	}
 
@@ -1610,7 +1624,7 @@ input, select, textarea {
 			table.default thead {
 				background: #4f4f4f;
 				color: #fff;
-			}
+			} */
 
 /* Section/Article */
 
@@ -1635,11 +1649,15 @@ input, select, textarea {
 		.image img {
 			display: block;
 			width: 100%;
+			/* margin-left: 0%; */
+
 		}
 
 		.image.fit {
 			display: block;
 			width: 100%;
+			margin-left: 0px;
+
 			
 		}
 
@@ -1652,16 +1670,16 @@ input, select, textarea {
 
 		.image.left {
 			float: left;
-			margin: 0 2em 2em 0;
+			/* margin: 0 2em 2em 0; */
 		}
 
 		.image.centered {
 			display: block;
-			margin: 0 0 2em 0;
+			/* margin: 0 0 2em 0; */
 		}
 
 			.image.centered img {
-				margin: 0 auto;
+				/* margin: 0 auto; */
 				width: auto;
 			}
 
