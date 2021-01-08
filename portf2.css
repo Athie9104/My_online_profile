@@ -1,0 +1,16 @@
+.testimonials{
+    display: flex;
+    flex-direction: row;
+}
+
+/* .testimonials .testi{
+    width: 300px;
+    margin: 10px;
+    height: 200px;
+    text-align: left;
+    line-height: 75px;
+} */
+
+.testi{
+    font-size: 10px;
+}

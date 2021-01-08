@@ -6,18 +6,18 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>About me</title>
     <link rel="stylesheet" href="porfolio.css">
+    <link rel="stylesheet" href="portf2.css">
+
 
 </head>
 
 
 <body>
-    
+    <link rel="icon" href="athi.png">
     <h2>About me</h2>
-
-
     <nav id="nav">
         <ul class="container">
-            <li><li><img src="athi.png" alt="logo" height="30%" width="30%"></li></li>
+            <li><img src="athi.png" alt="logo" height="30%" width="30%"></li>
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About me</a></li>
             <li><a href="resume.html">Resume</a></li>
@@ -27,7 +27,7 @@
 
 
    
-    <div>
+    <div class="bio">
             <p>
                 <strong>Overview:</strong> <br>
                 Full Name: Athenkosi  Gongotha <br>
@@ -51,7 +51,7 @@
                 
             </p>
             <p>
-                <strong>Passion Board:</strong>
+                <strong>Passion Board:</strong> <br>
                 Bodybuilding <br>
                 Hiking <br>
                 Caving <br>
@@ -60,10 +60,90 @@
 
             </p>
             <p>
+                <strong>Education:</strong> <br>
+                Matric (year and school):  Intsebenziswano S S S - 2012 <br>
+                Any other education (even if you have dropped-out): <br>
+                University name:  False Bay College <br>
+                Period: (date from when to when)  2016 - 2017 <br>
+                Completed: No <br>
+                Very important – list any additional courses you have completed/self-study for computer languages etc <br>
+                Visual Basics, C#, Python, CSS, JavaScript, SQLite3 and MySQL. <br>
+                
+
                 
             </p>
+            <p>
+                Working Experience: <br>
+                Company: Altron Bytes People Solutions <br>
+                Period: 3 months <br>
+                Role: Intern Cyber Security <br>
+                Duties: N/A
+            </p>
+            <p>
+               <strong>Contact me:</strong> <br> 
+                Details for us to make contact with you, please include social profile for LinkedIn and GitHub. <br>
+                Email: athenkosigongotha7@gmail.com <br>
+                Contact Number: 0762085222 <br>
+                LinkedIn: https://www.linkedin.com/in/athenkosi-gongotha-986050197/ <br>
+                GitHub:https://github.com/Athie9104 <br>
+            </p>
 
-    </div>
+            
+            <article id="top" class="testi">
+                <h2>Testimonails</h2>
+                <div class="testimonials">
+
+                    <div class="container">
+                        <img src="godwin.jpeg" alt="Avatar" width="200px" height="200px">
+                        <h6>Godwin Dzvapatsva</h6>
+                        <p>
+                            Athenkosi has a strong passion in coding. <br>
+                            From the time I started working with him, his performance has been phenomenal. <br>
+                            Godwin-Head of Curriculum and Learning
+                        </p>
+                    </div>
+
+                    <div class="container">
+                        <img src="candice-amon.png" alt="Avatar" width="200px" height="200px">
+                        <h6>Candice Amon</h6>
+
+                    </div>
+
+                    <div class="container">
+                        <img src="sandile.png" alt="Avatar" width="200px" height="200px">
+                        <h6>Sandile Tukani</h6>
+                        <p>
+                            Athenkosi is quite experienced in the field of coding, <br>
+                            and he definitely loves his work. Athenkosi is focused, <br>
+                            quiet, and consistent, which makes him really productive. <br>
+                            I would recommend him to a company, he would add much value to any organisation.
+                        </p>
+
+                    </div>
+
+                    <div class="container">
+                        <img src="zen.jpeg" alt="Avatar" width="200px" height="200px">
+                        <h6>Zenande Dotwana</h6>
+                        <p>
+                            Athenkosi is a determined person, he is always focused and he knows what he is doing
+                        </p>
+
+                    </div>
+
+                    <div class="container">
+                        <img src="profile.jpg" alt="Avatar" width="200px" height="200px">
+                        <h6>Siphesihle Mambikimba</h6>
+                        <p>
+                            Working with Athenkosi for the past 6 months has been an unforgettable Experience <br>
+                            He is always willing to land a helping hand where he can
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </article>
 
     <article id="social" class="wrapper style4">
         <div class="container medium">
@@ -87,6 +167,13 @@
             </footer>
         </div>
     </article>
+
+    <script type="text/javascript">
+        window.addEventListener('scroll', function(){
+            let header = document.querySelector('header');
+            header.classList.toggle('sticky', window.scrollY > 0);
+        });
+    </script>
 
 </body>
 </html>

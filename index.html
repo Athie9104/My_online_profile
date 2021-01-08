@@ -6,17 +6,17 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Athenkosi Gongotha Online Profile</title>
     <link rel="stylesheet" href="porfolio.css">
+    <link rel="stylesheet" href="portf2.css">
+
 </head>
 
 
 <body>
     
-
-
-
+<link rel="icon" href="athi.png">
     <nav id="nav">
         <ul class="container">
-            <li><li><img src="athi.png" alt="logo" height="30%" width="30%"></li></li>
+            <li><img src="athi.png" alt="logo" height="30%" width="30%"></li>
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About me</a></li>
             <li><a href="resume.html">Resume</a></li>
@@ -28,15 +28,14 @@
         <article id="top" class="wrapper style1">
             <div class="container">
                 <div class="row">
-                    <div class="col-xs-6 col-md-10">
+                    <div class="homeImg">
                         <span class="image featured"><img src="home.jpg" data-media=�(min-width: 200px></span> <br>
-
-                        <br><span class="col-xs-6 col-md-10"><h1>Hi. I'm <strong>Athenkosi Gongotha</strong>.</h1></span>
-
                     </div>
                 </div>
             </div>
   </article>
+  <br><span class=""><h1>Hi. I'm <strong>Athenkosi Gongotha</strong>.</h1></span>
+  <h3>I am a Python full stack developer</h3>
 
 
 <article id="social" class="wrapper style4">
@@ -61,6 +60,13 @@
         </footer>
     </div>
 </article>
+
+<script type="text/javascript">
+    window.addEventListener('scroll', function(){
+        let header = document.querySelector('header');
+        header.classList.toggle('sticky', window.scrollY > 0);
+    });
+</script>
 
 </body>
 </html>
