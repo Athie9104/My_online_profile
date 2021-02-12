@@ -1,4 +1,4 @@
-.testimonials{
+/* .testimonials{
     display: flex;
     flex-direction: row;
 }
@@ -14,17 +14,8 @@
 .testi{
     font-size: 10px;
 }
+ */
 
-/*  {
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: Arial;
-    margin: 0 auto; /* Center website */
-    max-width: 800px; /* Max width */
-    padding: 20px;
-  }
   
   .heading {
     font-size: 25px;
@@ -73,11 +64,29 @@
   }
   
   /* Individual bars */
-  .bar-5 {width: 90%; height: 18px; background-color: #4CAF50;}
-  .bar-4 {width: 70%; height: 18px; background-color: #2196F3;}
-  .bar-3 {width: 65%; height: 18px; background-color: #00bcd4;}
-  .bar-2 {width: 50%; height: 18px; background-color: #ff9800;}
+  .bar-5 {
+    width: 90%;
+    height: 18px;
+    background-color: #4CAF50;
+  }
+  .bar-4 {
+    width: 70%;
+    height: 18px;
+    background-color: #2196F3;
+  }
+  .bar-3 {
+    width: 65%;
+    height: 18px;
+    background-color: #00bcd4;
+  }
+  .bar-2 {
+    width: 50%;
+    height: 18px;
+    background-color: #ff9800;
+  }
+
   
+
   /* Responsive layout - make the columns stack on top of each other instead of next to each other */
   @media (max-width: 400px) {
     .side, .middle {
@@ -88,3 +97,13 @@
       display: none;
     }
   } 
+
+/* Passion board */
+.passion{
+  display: flex;
+  flex-direction: row;
+  height: 450px;
+  width: 100%;
+  padding: 30px 35px;
+  margin: 0px 50px;
+}
